@@ -2,7 +2,7 @@ from random import randint
 from time import sleep
 
 
-def print_board(board: list):
+def print_board(board: list) -> None:
     c = 0
     for i in board:
         print(*i, sep=' | ')
